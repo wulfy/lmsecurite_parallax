@@ -38,7 +38,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 300;
     background-color: #ffff00;
     line-height: 80px;
 }
@@ -158,6 +158,7 @@ header nav a:hover {
     transform: translate(-50%, -50%);
     background-color:rgb(255, 255, 0);
     width: 100%;
+    z-index:200;
   }
     .item {
      float: left;
@@ -169,6 +170,13 @@ header nav a:hover {
     .item:hover{
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+  }
+}
+
+@media only screen and (min-width:980), screen and (max-width: 1215px){
+
+  header{
+    font-size: 70%;
   }
 }
 
@@ -375,14 +383,15 @@ header nav a:hover {
 
   .item img{
   	width: 150px;
-    max-height: 150px;
-  	vertical-align: 
+    min-height: 50%;
+    max-height: 80%;
+  	vertical-align: middle;
   }
 
   .item_title{
   	width: 100%;
   	background-color: white;
-  	font-size: 0.4em;
+  	font-size: 0.3em;
   	font-family: "Arial";
   	text-align: center;
       position: absolute;
