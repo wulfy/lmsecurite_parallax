@@ -159,6 +159,7 @@ header nav a:hover {
     background-color:rgb(255, 255, 0);
     width: 100%;
     z-index:200;
+    font-size: 2em;
   }
     .item {
      float: left;
