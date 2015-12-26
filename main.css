@@ -130,7 +130,7 @@ header nav a:hover {
       overflow-y: auto;
       -webkit-perspective: 300px;
       perspective: 300px;
-      font-size: 200%;
+      /*font-size: 200%;*/
     }
 
     
@@ -391,8 +391,8 @@ header nav a:hover {
   .item_title{
   	width: 100%;
   	background-color: white;
-  	font-size: 0.3em;
-  	font-family: "Arial";
+  	font-size: 0.7em;
+  	font-family: "Open Sans", sans-serif;
   	text-align: center;
       position: absolute;
       bottom: 5px;
