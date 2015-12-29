@@ -467,41 +467,73 @@ header nav a:hover {
 
   @-webkit-keyframes contact_animate {
     0% {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
+    }
+    2% {
+        width: 90px;
+        height: 90px;
+    }
+    5% {
+        width: 80px;
+        height: 80px;
+    }
+    7% {
+        width: 90px;
+        height: 90px;
+    }
+    9% {
+        width: 80px;
+        height: 80px;
     }
     100% {
-        width: 100px;
-        height: 100px;
+         width: 80px;
+        height: 80px;
     }
 }
 @-moz-keyframes contact_animate {
     0% {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
+    }
+    5% {
+        width: 90px;
+        height: 90px;
+    }
+    10% {
+        width: 80px;
+        height: 80px;
     }
     100% {
-        width: 100px;
-        height: 100px;
+         width: 80px;
+        height: 80px;
     }
 }
 @-o-keyframes contact_animate {
-    0% {
-        width: 50px;
-        height: 50px;
+     0% {
+        width: 80px;
+        height: 80px;
+    }
+    5% {
+        width: 90px;
+        height: 90px;
+    }
+    10% {
+        width: 80px;
+        height: 80px;
     }
     100% {
-        width: 100px;
-        height: 100px;
+         width: 80px;
+        height: 80px;
     }
 }
 .contact_us img {
-    -webkit-animation: contact_animate 1s forwards;
-    -webkit-animation-iteration-count: 2;
-    -moz-animation: contact_animate 1s forwards;
-    -moz-animation-iteration-count: 2;
-    -o-animation: contact_animate 1s forwards;
-    -o-animation-iteration-count: 2;
+    -webkit-animation: contact_animate 20s forwards;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: contact_animate 20s forwards;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: contact_animate 20s forwards;
+    -o-animation-iteration-count: infinite;
         -webkit-animation-delay: 10s;
           animation-delay: 10s;
 }
